@@ -1,0 +1,19 @@
+git init
+git checkout branch_id
+git log --graph --oneline branch_1 branch_2
+git status
+
+git add then git commit
+git diff --staged   (after git add)
+
+git show commit_id (compare commit_id and its parrent)
+
+git merge branch1 branch2 or switch the one branch and merge another with only one branch name
+
+solving conflict by merging two branches with their co-ancestors
+note for <<<HEAD and etc...
+
+
+git branch branch_id to create a branch
+
+

@@ -1,0 +1,10 @@
+git clone https://github.com/udacity/asteroids
+git log
+git log -n 1
+git diff
+git diff commit_1_id, commit_2_id
+git config --global core.editor sublime
+
+change terminal to git environment
+.bash_profile and etc....
+
