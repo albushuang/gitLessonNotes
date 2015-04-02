@@ -1,0 +1,4 @@
+first, make sure run git init and add/commit
+
+git remote add origin https://github.com/albushuang/gitLessonNotes.git  (after creating a git repository in github, if only one remote, then use "origin")
+git push -u origin master
