@@ -1,4 +1,38 @@
 first, make sure run git init and add/commit
 
-git remote add origin https://github.com/albushuang/gitLessonNotes.git  (after creating a git repository in github, if only one remote, then use "origin")
+git remote add origin https://github.com/albushuang/gitLessonNotes.git  (after creating a git repository in github, if only one remote(?), then use "origin")
 git push -u origin master
+
+git pull origin master (synchronize cloud and local, sometimes it introduce conflicts,  right?)
+
+forking (clone a repository in github)
+
+git fetch (get a remote modified version to new a local branch)
+git pull origin master = "git fetch origin" and then "git merge master origin/master"
+
+git log origin/master (get log from local repository (origin) with master branch)
+
+git push origin branch_name
+
+
+note :
+
+On branch different-oil
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+
+
+git remote add origin /Users/me/sites/main_repo
+
+//try to keep updated from the orginal git...after you fork your own git and then modified in a branch...
+git remote add upstream /original/git.git
+git pull upstream master
+git checkout my_changed_branch
+git merge master my_changed_branch
+git add file_modified
+git commit
+git push origin my_changed_branch
+git checkout master
+git push
+
+// then your forked one, should be updated to latest changes of original git.
